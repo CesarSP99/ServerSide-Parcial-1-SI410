@@ -41,7 +41,6 @@ namespace ApiDoble.Controllers
 
                 // send the message
                 await sender.SendMessageAsync(message);
-                Console.WriteLine($"Sent a single message to the queue: {queueName}");
             }
             return $"Envie el numero {random.RandomNumber}";
         }
