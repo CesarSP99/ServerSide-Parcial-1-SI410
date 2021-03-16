@@ -42,7 +42,7 @@ namespace ApiDoble.Controllers
                 // send the message
                 await sender.SendMessageAsync(message);
             }
-            return $"Envie el numero {random.RandomNumber}";
+            return $"Recibi el numero {random.RandomNumber}";
         }
     }
 }
