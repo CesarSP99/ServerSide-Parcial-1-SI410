@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDoble", "ApiDoble\ApiDoble.csproj", "{618D5416-A78C-47C7-BBF1-3C8B0AAF4515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppPar", "FunctionAppPar\FunctionAppPar.csproj", "{4BCF9329-2951-4CD9-AA85-B0DAEEEF6999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppImpar", "FunctionAppImpar\FunctionAppImpar.csproj", "{6C0DC658-0E1E-4885-A425-9B6761F9384D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{618D5416-A78C-47C7-BBF1-3C8B0AAF4515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618D5416-A78C-47C7-BBF1-3C8B0AAF4515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618D5416-A78C-47C7-BBF1-3C8B0AAF4515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCF9329-2951-4CD9-AA85-B0DAEEEF6999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCF9329-2951-4CD9-AA85-B0DAEEEF6999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCF9329-2951-4CD9-AA85-B0DAEEEF6999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCF9329-2951-4CD9-AA85-B0DAEEEF6999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0DC658-0E1E-4885-A425-9B6761F9384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0DC658-0E1E-4885-A425-9B6761F9384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0DC658-0E1E-4885-A425-9B6761F9384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0DC658-0E1E-4885-A425-9B6761F9384D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

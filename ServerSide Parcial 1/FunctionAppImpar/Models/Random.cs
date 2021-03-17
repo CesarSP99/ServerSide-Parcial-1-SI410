@@ -2,15 +2,15 @@
 //
 // To parse this JSON data, add NuGet 'Newtonsoft.Json' then do:
 //
-//    using ApiDoble.Models;
+//    using FunctionAppImpar.Models;
 //
 //    var random = Random.FromJson(jsonString);
 
-namespace ApiDoble.Models
+namespace FunctionAppImpar.Models
 {
     using System;
     using System.Collections.Generic;
-
+    using System.ComponentModel.DataAnnotations;
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -26,12 +26,12 @@ namespace ApiDoble.Models
 
     public partial class Random
     {
-        public static Random FromJson(string json) => JsonConvert.DeserializeObject<Random>(json, ApiDoble.Models.Converter.Settings);
+        public static Random FromJson(string json) => JsonConvert.DeserializeObject<Random>(json, FunctionAppImpar.Models.Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this Random self) => JsonConvert.SerializeObject(self, ApiDoble.Models.Converter.Settings);
+        public static string ToJson(this Random self) => JsonConvert.SerializeObject(self, FunctionAppImpar.Models.Converter.Settings);
     }
 
     internal static class Converter
